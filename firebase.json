@@ -4,7 +4,7 @@
     "public": "build",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
-      { "source": "**", "destination": "/index.html" }
+      { "source": "**", "destination": "/react.js" }
     ]
   }
 }
