@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "site": "student-portal-6c104",
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      { "source": "**", "destination": "/index.html" }
+    ]
+  }
+}
